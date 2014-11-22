@@ -1,0 +1,34 @@
+GIT
+  remote: https://github.com/NBZ4live/ansible-php-fpm
+  ref: master
+  sha: 8d01c6b0d7034d88c7fba1efed1a5fced4dd4867
+  specs:
+    nbz4live.php-fpm (0.0.0)
+
+GIT
+  remote: https://github.com/ShadowKoBolt/ansible-mysql
+  ref: master
+  sha: f489d8afb5e65d5c27774f64ba27e3627a02a07b
+  specs:
+    ShadowKoBolt.mysql (0.0.0)
+
+GIT
+  remote: https://github.com/Stouts/Stouts.elasticsearch
+  ref: master
+  sha: 169ea9ca484df5be8f498b34edeb017be4f20d5d
+  specs:
+    Stouts.elasticsearch (0.0.0)
+
+GIT
+  remote: https://github.com/Stouts/Stouts.nginx
+  ref: master
+  sha: ae6d6dba534e9ce67d0189f27435fb2317fba060
+  specs:
+    Stouts.nginx (0.0.0)
+
+DEPENDENCIES
+  ShadowKoBolt.mysql (>= 0)
+  Stouts.elasticsearch (>= 0)
+  Stouts.nginx (>= 0)
+  nbz4live.php-fpm (>= 0)
+

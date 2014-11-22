@@ -1,0 +1,7 @@
+- hosts: all
+  sudo: yes
+  roles:
+    - Stouts.elasticsearch
+    - Stouts.nginx
+    - {role: ShadowKoBolt.mysql, mysql_db_name: ezp5}
+    - nbz4live.php-fpm

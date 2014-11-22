@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site "https://galaxy.ansible.com/api/v1"
+
+role "Stouts.elasticsearch"
+role "Stouts.nginx"
+role "ShadowKoBolt.mysql"
+role "nbz4live.php-fpm"
